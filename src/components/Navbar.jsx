@@ -10,9 +10,11 @@ export default function Navbar({ page, setPage }) {
           className="flex items-center gap-3 cursor-pointer"
           onClick={() => setPage('home')}
         >
-          <div className="w-10 h-10 bg-[#1D9E75] rounded-xl flex items-center justify-center text-xl">
-            🌿
-          </div>
+          <img
+            src="/kukaru.jpeg"
+            alt="Kukaru Logo"
+            className="w-12 h-12 object-contain"
+          />
           <div>
             <div className="text-xl font-bold text-[#1D9E75] leading-tight">
               KUKARU
